@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body, html{
+    height:100%;
+    background: url("../images/LandingPage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.container-fluid{
+	height:100vh;
+}
+
+.first-row{
+	height:100vh;
+}
+a {
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+a:hover{
+    color: #fff;
+}
+.col-md-3{
+    height: 100%;    
+    align-items: center;
+    background: rgba(35, 35, 35, 0.9);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.col-md-3 img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+.col-md-3 .top-header{
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .top-header li{
+    padding-top: 20px;
+}
+
+.col-md-3 .middle-header{
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .middle-header li{
+    padding-top: 20px;
+}
+
+.col-md-3 .exitdash{
+    list-style: none;
+    padding-top: 30px;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.col-md-3 .exitdash li{
+    padding-top: 20px;
+}
+
+.col-md-9{
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.header h3 {
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.header h3::after{
+    display: block;
+    content: "0.0000BNB";
+}
+
+.header .bg-rounded{
+    width:55px;
+    height: 55px;
+    background: #fff;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+}
+
+.header .bg-rounded .vector{
+    padding-top: 15px;
+    padding-left: 15px;
+    display: block;
+}
+
+.header .bg-rounded .bell {
+    padding-top: 0px;
+    padding-left: 21px;
+    display: block;
+}
+
+.header .bg-block{
+    width: 68px;
+    height: 68px;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    opacity: 0.3;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 50px;
+}
+
+.header .name-addr{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.header .name-addr h6{
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+.header .name-addr h6::after{
+    color: #fff;
+    display: block;
+    content: "0xabc3defgte3dfsd";
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    clear: both;
+    font-weight: normal;
+
+}
+.hrz-separator{
+    border-bottom: 1px solid #C156C2;
+    display: block;
+    transform: rotate(0.22deg);
+    margin-top: 10px;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.content{
+    background: rgba(35, 35, 35, 0.9);
+    height: 300px;
+    margin-top: 60px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.content .sub-heading{
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.content .sub-heading-2{
+    color: #fff;
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.content button{
+    outline: none;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 50px;
+    height: 50px;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    color: #fff;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.content button:hover{
+    background: linear-gradient(134.38deg, #5356FB 0%, #C342F9 43.55%, #F539F8 104.51%);
+}
+
+.questions{
+    background: rgba(35, 35, 35, 0.9);
+    height: 300px;
+    margin-top: 60px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.questions .faq{
+    color: #fff;
+    text-align: center;
+    margin-top:100px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.main {
+    background: rgba(35, 35, 35, 0.9);
+    height: 450px;
+    margin-top: 60px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.main .qr-code{
+    width: 200px;
+    color: #000;
+    background: #fff;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .qr-code h3{
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 170px;
+}
+
+.main .hex{
+    color: #fff;
+    margin-top: 20px;
+}
+
+.main .hex h6{
+    text-align: center;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.main .separator{
+    border: 1px solid #000;
+    margin-top: 20px;
+}
+
+.sendcryft{
+    display: flex;
+    justify-content: space-between;
+}
+.sendcryft h4{
+    color: #fff;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sendcryft button{
+    outline: none;
+    border: none;
+    margin-right: 100px;
+    margin-top: 10px;
+    height: 50px;
+    width: 30%;
+    border-radius: 50px;
+    color: #fff;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sendcryft button:hover{
+    background: linear-gradient(134.38deg, #5356FB 0%, #C342F9 43.55%, #F539F8 104.51%);
+}
+
+.sendbusd{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sendbusd h4{
+    color: #fff;
+    margin-left: 80px;
+    padding-left: 20px;
+    padding-top: 50px;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+}
+
+.sendbusd button{
+    outline: none;
+    border: none;
+    margin-right: 100px;
+    margin-top: 35px;
+    height: 50px;
+    width: 30%;
+    border-radius: 50px;
+    color: #fff;
+    background: linear-gradient(134.38deg, #F539F8 0%, #C342F9 43.55%, #5356FB 104.51%);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.sendbusd button:hover{
+    background: linear-gradient(134.38deg, #5356FB 0%, #C342F9 43.55%, #F539F8 104.51%);
+}
+@media (max-width:576px)
+{
+    .col-md-3{
+        height:auto;
+    }
+    
+    .header h3 {
+        padding-left: 0px;
+        font-size: 13px;
+    }
+
+    .header .bg-rounded{
+        border-radius: 30px;
+        margin-right: 0px;
+        width: 30px;
+        height: 30px;
+    }
+    .header .bg-rounded .vector{
+        padding-top: 9px;
+        padding-left: 9px;
+        width: 20px;
+        
+    }
+
+    .header .bg-rounded .bell{
+        padding-left: 12px;
+        width: 17px;
+    }
+
+    .header .bg-block{
+        width: 30px;
+        height: 30px;
+        margin-top:20px
+    }
+
+    .content .main-heading h1{
+        font-size: 28px;
+    }
+
+    .main .hex h6{
+        text-align: center;
+        font-family: Ubuntu, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+    }
+
+    .sendcryft h4{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .sendcryft button{
+        margin-right: 0px;
+    }
+
+    .sendbusd h4{
+        font-size: 20px;
+        margin-left: 0px;
+    }
+
+    .sendbusd button{
+        margin-right: 0;
+    }
+}
+
+
